@@ -96,7 +96,7 @@ def check_user(func):
                         await c_q.answer(
                             "Stop spamming bot!!!\nElse you will be blacklisted",
                         )
-                        await clog('ANIBOT', f'UserID: {user}', 'SPAM')
+                        await clog('ANIME FINDER', f'UserID: {user}', 'SPAM')
                 except KeyError:
                     pass
                 USER_JSON[user] = nt
